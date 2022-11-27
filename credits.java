@@ -1,4 +1,4 @@
-import java.awt.Color;    // <-- tambah library yang dibutuhkan
+import java.awt.Color; // menambahkan library yang diperlukan
 import java.awt.event.*;
 import java.awt.Font;
 import javax.swing.*;
@@ -34,5 +34,21 @@ public class Credit implements ActionListener {
 
     // icon frame
     frame.getContentPane().setBackground(new Color(0x123456)); // ganti warna background
-    ImageIcon image = new ImageIcon("buat file icon image disini");        // buat ImageIcon
+    ImageIcon image = new ImageIcon("buat file icon image disini.jpg");        // buat ImageIcon
     frame.setIconImage(image.getImage());                      // set icon
+    
+    JLabel background2;
+    ImageIcon img2 = new ImageIcon("masukin foto orang 1.jpg");
+    background2 = new JLabel(img2);
+    background2.setSize(1300, 750);
+    background2.setBounds(-550, -70, 1300, 750);
+    background2.setVisible(true);
+    frame.add(background2);
+
+    JLabel background3;
+    ImageIcon img3 = new ImageIcon("masukin foto orang 2.jpg");
+    background3 = new JLabel(img3);
+    background3.setSize(1300, 750);
+    background3.setBounds(-550, -250, 1300, 750);
+    background3.setVisible(true);
+    frame.add(background3);
