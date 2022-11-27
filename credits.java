@@ -52,3 +52,6 @@ public class Credit implements ActionListener {
     background3.setBounds(-550, -250, 1300, 750);
     background3.setVisible(true);
     frame.add(background3);
+    
+   }
+}
