@@ -1,4 +1,4 @@
-import java.awt.Color;    //library
+import java.awt.Color;    // <-- tambah library yang dibutuhkan
 import java.awt.event.*;
 import java.awt.Font;
 import javax.swing.*;
